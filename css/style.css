@@ -19,7 +19,7 @@ body {
 .receitas {
   background-color: var(--White);
   max-width: 700px;
-  margin: auto auto 0;
+  margin: 100px auto 100px;
   border-radius: 1rem;
   padding: 20px 10px 62px;
 }
