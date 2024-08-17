@@ -1,0 +1,161 @@
+
+body {
+  background-color: var(--Eggshell);
+}
+
+.titulo{
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  color: var(--nutmeg);
+  font-size: 26px;
+  margin-left: 20px;
+}
+
+#titulo-preparacao{
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+
+.receitas {
+  background-color: var(--White);
+  max-width: 700px;
+  margin: auto auto 0;
+  border-radius: 1rem;
+  padding: 20px 10px 62px;
+}
+
+.imagem {
+  width: 90%;
+  margin: 20px auto;
+  display: block;
+}
+
+.primeira-parte h2 {
+  margin: 12px 20px 34px;
+  font-size: 34px;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+
+.primeira-parte p {
+  font-size: 16px;
+  margin-left: 20px;
+  color: var(--Wenge-Brown);
+  font-family: "Outfit", sans-serif; 
+}
+
+
+
+.preparacao {
+  margin: 20px 50px auto;
+  font-size: 14px;
+  line-height: 30px;
+  width: 90%;	
+  border-radius: 5%;
+  background-color: var(--Rose-White);
+  padding-top: 20px;
+  color: var(--Wenge-Brown);
+}
+
+
+
+
+ul{
+margin-left: 50px; 
+}
+
+.preparacao h2 {
+  font-size: 22px;
+  color: var(--dark-Raspberry);
+  margin: 0px 20px 10px;
+}
+
+ li {
+  padding-left: 15px;
+}
+
+
+
+
+
+
+.ingredientes {
+  margin-top: 25px;
+  font-size: 14px;
+  line-height: 30px;
+  color: var(--Wenge-Brown);
+}
+
+
+.ingredientes ul{
+    margin-top: 12px;
+    font-family: "Outfit", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+.instrucoes{
+    margin-top: 20px;
+    line-height: 30px;
+    color: var(--Wenge-Brown);
+}
+
+.instrucoes ol{
+    list-style-type: decimal;
+    margin: 20px 50px auto;
+    font-family: "Outfit", sans-serif;
+}
+.instrucoes ol li::marker{
+    color: var(--nutmeg);
+    font-weight: bold;
+}
+
+
+
+
+
+
+.nutricional{
+    margin-top: 20px;
+    line-height: 30px;
+    color: var(--Wenge-Brown);
+}
+
+
+.nutricional p{
+    margin: 16px 40px auto;
+    font-size: 16px;
+}
+
+.nutricional table{
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+
+.nutricional td {
+    padding: 5px; 
+    padding-right: 250px;   
+    border-bottom: 1px solid #898989;
+}
+
+
+.cor-linha{
+    color: var(--nutmeg);
+    font-weight: bold;
+    
+}
+
+tr:last-child td{
+    border-bottom: none;
+}
