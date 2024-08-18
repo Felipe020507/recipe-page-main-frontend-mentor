@@ -3,7 +3,7 @@ body {
   background-color: var(--Eggshell);
 }
 
-.titulo{
+.titles{
   font-family: "Outfit", sans-serif;
   font-weight: 700;
   color: var(--nutmeg);
@@ -11,12 +11,12 @@ body {
   margin-left: 20px;
 }
 
-#titulo-preparacao{
+#titles-preparation{
   font-family: "Young Serif", serif;
   font-weight: 400;
 }
 
-.receitas {
+.receipe {
   background-color: var(--White);
   max-width: 700px;
   margin: 100px auto 100px;
@@ -24,20 +24,20 @@ body {
   padding: 20px 10px 62px;
 }
 
-.imagem {
-  width: 90%;
-  margin: 20px auto;
+.image {
+  width: 100%;
+  margin: 0px auto;
   display: block;
 }
 
-.primeira-parte h2 {
+.first-part h2 {
   margin: 12px 20px 34px;
   font-size: 34px;
   font-family: "Young Serif", serif;
   font-weight: 400;
 }
 
-.primeira-parte p {
+.first-part p {
   font-size: 16px;
   margin-left: 20px;
   color: var(--Wenge-Brown);
@@ -46,7 +46,7 @@ body {
 
 
 
-.preparacao {
+.preparation {
   margin: 20px 50px auto;
   font-size: 14px;
   line-height: 30px;
@@ -64,7 +64,7 @@ ul{
 margin-left: 50px; 
 }
 
-.preparacao h2 {
+.preparation h2 {
   font-size: 22px;
   color: var(--dark-Raspberry);
   margin: 0px 20px 10px;
@@ -79,7 +79,7 @@ margin-left: 50px;
 
 
 
-.ingredientes {
+.ingredients {
   margin-top: 25px;
   font-size: 14px;
   line-height: 30px;
@@ -87,7 +87,7 @@ margin-left: 50px;
 }
 
 
-.ingredientes ul{
+.ingredients ul{
     margin-top: 12px;
     font-family: "Outfit", sans-serif;
 }
@@ -101,18 +101,18 @@ margin-left: 50px;
 
 
 
-.instrucoes{
+.instructions{
     margin-top: 20px;
     line-height: 30px;
     color: var(--Wenge-Brown);
 }
 
-.instrucoes ol{
+.instructions ol{
     list-style-type: decimal;
     margin: 20px 50px auto;
     font-family: "Outfit", sans-serif;
 }
-.instrucoes ol li::marker{
+.instructions ol li::marker{
     color: var(--nutmeg);
     font-weight: bold;
 }
@@ -122,19 +122,19 @@ margin-left: 50px;
 
 
 
-.nutricional{
+.nutrition{
     margin-top: 20px;
     line-height: 30px;
     color: var(--Wenge-Brown);
 }
 
 
-.nutricional p{
+.nutrition p{
     margin: 16px 40px auto;
     font-size: 16px;
 }
 
-.nutricional table{
+.nutrition table{
     margin-top: 16px;
     margin-left: auto;
     margin-right: auto;
@@ -143,16 +143,16 @@ margin-left: 50px;
 }
 
 
-.nutricional td {
+.nutrition td {
     padding: 5px; 
     padding-right: 250px;   
     border-bottom: 1px solid #898989;
 }
 
 
-.cor-linha{
+.color-inline{
     color: var(--nutmeg);
-    font-weight: bold;
+    font-weight: bolder;
     
 }
 
