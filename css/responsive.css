@@ -1,31 +1,31 @@
 @media(max-width: 375px){
 
-    .receitas{
+    .receipe{
         padding: 0;
         margin: 0;
     }
 
-    .imagem{
+    .image{
         width: 100%;
         height: auto;
         margin: 0;
         display: block;
        }
 
-    .primeira-parte h2{
+    .first-part h2{
         margin-top: 30px;
         text-align: left;
     }
 
 
-    .primeira-parte p{
+    .first-part p{
         font-size: 16px;
         width: 90%;
         line-height: 30px;
         margin: -20px 30px auto;
     }
 
-    .preparacao{
+    .preparation{
         background-color: var(--Rose-White);
         width: 80%;
         margin-left: 30px;
@@ -34,11 +34,11 @@
 
 
 
-    .ingredientes h2{
+    .ingredients h2{
         margin: 20px 30px auto;
     }
 
-    .ingredientes ul{
+    .ingredients ul{
         font-size: 16px;
     }
 
@@ -46,43 +46,43 @@
 
 
 
-    .instrucoes  h2{
+    .instructions  h2{
         width: 90%;
         margin: 20px 30px auto;
     }
 
-   .instrucoes ol{
+   .instructions ol{
         width: 70%;
         font-size: 16px;
         line-height: 20px;
     }
 
-    .instrucoes li{
+    .instructions li{
         margin-top: 20px;
     }
 
 
 
 
-    .nutricional h2{
+    .nutrition h2{
         width: 90%;
         margin: 20px 30px auto;
     }
 
-    .nutricional p{
+    .nutrition p{
         width: 84%;
         font-size: 16px;
        
     }
 
-    .nutricional table{
+    .nutrition table{
         padding-right: 85px;
         width: 50%;
         text-align: center;
     }
     
 
-    .nutricional td{
+    .nutrition td{
         padding-right: 85px;
         border-bottom: 1px solid #898989;
     }
